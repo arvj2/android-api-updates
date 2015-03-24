@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/sample_main_layout"
+              android:orientation="vertical"
+              tools:context="${relativePackage}.${activityClass}">
+
+    <ViewAnimator android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:id="@+id/sample_output"
+                  android:layout_weight="1">
+
+
+        <ScrollView style="@style/Widget.SampleMessageTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:paddingLeft="@dimen/horizontal_page_margin"
+                      android:paddingRight="@dimen/horizontal_page_margin"
+                      android:paddingTop="@dimen/vertical_page_margin"
+                      android:paddingBottom="@dimen/vertical_page_margin"
+                      android:text="@string/intro_message"
+                      style="@style/Widget.SampleMessage"
+                    />
+        </ScrollView>
+        <fragment android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:id="@+id/log_fragment"
+                  android:name="com.jvra.adt.common.log.LogFragment"
+                />
+    </ViewAnimator>
+
+    <View android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="@android:color/darker_gray"/>
+
+    <FrameLayout
+            android:id="@+id/sample_content_fragment"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            />
+</LinearLayout>

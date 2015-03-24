@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="item_clicked">%s clicked</string>
+    <string name="show_as_grid">Show as grid</string>
+    <string name="show_as_list">Show as list</string>
+
+</resources>

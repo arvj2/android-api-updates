@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AdapterTransition</string>
+    <string name="intro_message">
+        <![CDATA[
+
+
+	    Transition cannot be directly applied to AdapterViews. In this sample, we demonstrate how to create an overlay layout and run a Transition on it. Press the action bar button to toggle between ListView and GridView.
+
+
+        ]]>
+    </string>
+</resources>

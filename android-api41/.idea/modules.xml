@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/actionbar-visibility/actionbar-visibility.iml" filepath="$PROJECT_DIR$/actionbar-visibility/actionbar-visibility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activity-parent/activity-parent.iml" filepath="$PROJECT_DIR$/activity-parent/activity-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/android-api41.iml" filepath="$PROJECT_DIR$/android-api41.iml" />
       <module fileurl="file://$PROJECT_DIR$/content-provider/content-provider.iml" filepath="$PROJECT_DIR$/content-provider/content-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider-consumer/provider-consumer.iml" filepath="$PROJECT_DIR$/provider-consumer/provider-consumer.iml" />
     </modules>
   </component>
 </project>

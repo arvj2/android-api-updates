@@ -8,7 +8,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/actionbar-visibility" />
+            <option value="$PROJECT_DIR$/activity-parent" />
             <option value="$PROJECT_DIR$/content-provider" />
+            <option value="$PROJECT_DIR$/provider-consumer" />
           </set>
         </option>
       </GradleProjectSettings>

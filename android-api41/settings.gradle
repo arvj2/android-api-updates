@@ -1,1 +1,1 @@
-include ':content-provider'
+include ':content-provider', ':provider-consumer', ':activity-parent', ':actionbar-visibility'
