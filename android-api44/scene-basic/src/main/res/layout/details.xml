@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+        <com.jvra.scb.SquareFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:id="@+id/imageview_header"
+                       android:scaleType="centerCrop"
+                    />
+        </com.jvra.scb.SquareFrameLayout>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/textview_title"
+                  style="@style/TextView.Title"
+                  android:padding="16dp"
+                  android:maxLines="2"
+                />
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="@android:style/TextAppearance.Material.Body1"
+                  android:padding="16dp"
+                  android:text="@string/bacon_ipsum"
+                />
+    </LinearLayout>
+</ScrollView>

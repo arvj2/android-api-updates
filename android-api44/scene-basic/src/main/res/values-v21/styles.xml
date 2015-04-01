@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.Base">
+        <item name="android:windowSharedElementEnterTransition">@transition/grid_detail_transition</item>
+        <item name="android:windowSharedElementExitTransition">@transition/grid_detail_transition</item>
+    </style>
+
+    <style name="TextView.SubHead" parent="TextView">
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Subhead</item>
+    </style>
+
+    <style name="TextView.Title" parent="TextView">
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Title</item>
+    </style>
+
+    <style name="TextView.Body1">
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Body1</item>
+    </style>
+
+</resources>

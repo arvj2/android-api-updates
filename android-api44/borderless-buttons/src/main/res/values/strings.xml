@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">borderless-buttons</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="intro_message">
+        <![CDATA[
+
+
+                This sample demonstrates the use of borderless buttons, bottom button bars
+                (OK and Cancel) and dividers to establish visual structure.
+
+
+        ]]>
+    </string>
+
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <string name="dummy_title">Dummy title</string>
+    <string name="dummy_subtitle">Dummy subtitle</string>
+
+    <string name="delete_content_description">Delete</string>
+
+    <string name="touched_primary_message">Touched primary list item target.</string>
+    <string name="touched_secondary_message">Touched secondary list item target (delete).</string>
+
+    <string name="docs_link_title">Design docs: borderless buttons</string>
+
+
+</resources>

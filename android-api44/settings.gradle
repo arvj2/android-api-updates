@@ -1,1 +1,1 @@
-include ':adapter-transition'
+include ':adapter-transition', ':scene-basic', ':inmersivemode', ':basic-immersive', ':basic-transition', ':transitions', ':custom-transition', ':fragment-transition', ':transition-test', ':borderless-buttons', ':drawable-tint', ':swipe-refresh-basic', ':swipe-refresh-fragment', ':swipe-refresh-multipleviews', ':cardview', ':clipping', ':elevation-drag', ':floating-button', ':navigation-drawer', ':recycler-view', ':reveal-effect'

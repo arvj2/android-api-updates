@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">swipe-refresh-basic</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="menu_refresh">Refresh</string>
+
+    <string name="intro_message">
+        <![CDATA[
+
+
+            A basic sample which shows how to use SwipeRefreshLayout to add the \'swipe-to-refresh\'
+            gesture to a View, enabling the ability to trigger a refresh from swiping down on the view.
+            In this sample the View which can be refreshed is a ListView.
+
+
+        ]]>
+    </string>
+
+</resources>

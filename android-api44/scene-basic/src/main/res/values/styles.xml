@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.Base">
+
+    </style>
+
+    <style name="TextView"></style>
+
+    <style name="TextView.SubHead" parent="TextView"></style>
+
+    <style name="TextView.Title" parent="TextView">
+    </style>
+
+    <style name="TextView.Body1">
+    </style>
+
+</resources>

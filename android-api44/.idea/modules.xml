@@ -4,6 +4,26 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/adapter-transition/adapter-transition.iml" filepath="$PROJECT_DIR$/adapter-transition/adapter-transition.iml" />
       <module fileurl="file://$PROJECT_DIR$/android-api44.iml" filepath="$PROJECT_DIR$/android-api44.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-immersive/basic-immersive.iml" filepath="$PROJECT_DIR$/basic-immersive/basic-immersive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-transition/basic-transition.iml" filepath="$PROJECT_DIR$/basic-transition/basic-transition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/borderless-buttons/borderless-buttons.iml" filepath="$PROJECT_DIR$/borderless-buttons/borderless-buttons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cardview/cardview.iml" filepath="$PROJECT_DIR$/cardview/cardview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clipping/clipping.iml" filepath="$PROJECT_DIR$/clipping/clipping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-transition/custom-transition.iml" filepath="$PROJECT_DIR$/custom-transition/custom-transition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drawable-tint/drawable-tint.iml" filepath="$PROJECT_DIR$/drawable-tint/drawable-tint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elevation-drag/elevation-drag.iml" filepath="$PROJECT_DIR$/elevation-drag/elevation-drag.iml" />
+      <module fileurl="file://$PROJECT_DIR$/floating-button/floating-button.iml" filepath="$PROJECT_DIR$/floating-button/floating-button.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragment-transition/fragment-transition.iml" filepath="$PROJECT_DIR$/fragment-transition/fragment-transition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inmersivemode/inmersivemode.iml" filepath="$PROJECT_DIR$/inmersivemode/inmersivemode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/navigation-drawer/navigation-drawer.iml" filepath="$PROJECT_DIR$/navigation-drawer/navigation-drawer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recycler-view/recycler-view.iml" filepath="$PROJECT_DIR$/recycler-view/recycler-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reveal-effect/reveal-effect.iml" filepath="$PROJECT_DIR$/reveal-effect/reveal-effect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scene-basic/scene-basic.iml" filepath="$PROJECT_DIR$/scene-basic/scene-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swipe-refresh-basic/swipe-refresh-basic.iml" filepath="$PROJECT_DIR$/swipe-refresh-basic/swipe-refresh-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swipe-refresh-fragment/swipe-refresh-fragment.iml" filepath="$PROJECT_DIR$/swipe-refresh-fragment/swipe-refresh-fragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swipe-refresh-multipleviews/swipe-refresh-multipleviews.iml" filepath="$PROJECT_DIR$/swipe-refresh-multipleviews/swipe-refresh-multipleviews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transition-test/transition-test.iml" filepath="$PROJECT_DIR$/transition-test/transition-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transitions/transitions.iml" filepath="$PROJECT_DIR$/transitions/transitions.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin">
+
+
+    <RadioGroup android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/select_scene"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/scene"/>
+
+        <RadioButton
+                android:id="@+id/select_scene_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/scene_1"/>
+
+        <RadioButton
+                android:id="@+id/select_scene_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/scene_2"/>
+
+        <RadioButton
+                android:id="@+id/select_scene_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/scene_3"/>
+
+        <RadioButton
+                android:id="@+id/select_scene_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/scene_4"/>
+    </RadioGroup>
+
+
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:id="@+id/scene_root"
+                 android:layout_weight="1">
+        <include layout="@layout/scene1"/>
+    </FrameLayout>
+</LinearLayout>

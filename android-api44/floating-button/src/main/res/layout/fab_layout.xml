@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <com.jvra.fb.FloatingActionButton
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_marginTop="16dp"
+            android:elevation="@dimen/fab_elevation"
+            android:background="@drawable/fab_background"
+            android:stateListAnimator="@animator/fab_animator"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/fab_1"
+            >
+
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:duplicateParentState="true"
+                   android:src="@drawable/fab_icons"
+                   android:layout_gravity="center"
+                />
+
+    </com.jvra.fb.FloatingActionButton>
+
+    <com.jvra.fb.FloatingActionButton
+            android:layout_width="@dimen/fab_size_small"
+            android:layout_height="@dimen/fab_size_small"
+            android:layout_marginTop="128dp"
+            android:elevation="@dimen/fab_elevation"
+            android:background="@drawable/fab_background"
+            android:stateListAnimator="@animator/fab_animator"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/fab_2"
+            >
+
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:duplicateParentState="true"
+                   android:src="@drawable/fab_icons"
+                   android:layout_gravity="center"
+                />
+
+    </com.jvra.fb.FloatingActionButton>
+</FrameLayout>

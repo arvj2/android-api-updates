@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">clipping</string>
+    <string name="hello_world">Hello world!</string>
+
+
+    <string-array name="sample_texts">
+        <item>Lorem ipsum dolor sit amet, duo numquam nominavi consectetuer at.</item>
+        <item>Vivendo philosophia mea et. Duo te idque appetere.</item>
+        <item>De finibus bonorum et malorum.</item>
+    </string-array>
+
+    <string name="clip_button">Enabled outline clipping</string>
+    <string name="unclip_button">Disable outline clipping</string>
+
+</resources>

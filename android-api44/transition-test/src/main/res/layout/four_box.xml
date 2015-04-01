@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/root_scene"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click"
+            android:onClick="onClick"/>
+
+
+    <RelativeLayout android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+        <View android:layout_width="60dp"
+              android:layout_height="60dp"
+              android:background="#FF0000"
+              android:id="@+id/first"
+              android:gravity="start"
+              android:layout_margin="16dp"
+              android:elevation="5dp"
+
+                />
+        <View android:layout_width="60dp"
+              android:layout_height="60dp"
+              android:background="#00FF00"
+              android:id="@+id/second"
+              android:layout_toRightOf="@+id/first"
+              android:layout_margin="16dp"
+              android:elevation="5dp"
+
+                />
+        <View android:layout_width="60dp"
+              android:layout_height="60dp"
+              android:background="#0000FF"
+              android:id="@+id/thrid"
+              android:layout_margin="16dp"
+              android:layout_below="@+id/first"
+              android:elevation="5dp"
+                />
+
+        <View android:layout_width="60dp"
+              android:layout_height="60dp"
+              android:background="#000000"
+              android:layout_toRightOf="@+id/thrid"
+              android:layout_alignBaseline="@+id/thrid"
+              android:id="@+id/four"
+              android:layout_margin="16dp"
+              android:elevation="5dp"
+                />
+    </RelativeLayout>
+
+
+</RelativeLayout>

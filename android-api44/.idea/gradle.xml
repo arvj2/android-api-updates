@@ -9,6 +9,26 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/adapter-transition" />
+            <option value="$PROJECT_DIR$/basic-immersive" />
+            <option value="$PROJECT_DIR$/basic-transition" />
+            <option value="$PROJECT_DIR$/borderless-buttons" />
+            <option value="$PROJECT_DIR$/cardview" />
+            <option value="$PROJECT_DIR$/clipping" />
+            <option value="$PROJECT_DIR$/custom-transition" />
+            <option value="$PROJECT_DIR$/drawable-tint" />
+            <option value="$PROJECT_DIR$/elevation-drag" />
+            <option value="$PROJECT_DIR$/floating-button" />
+            <option value="$PROJECT_DIR$/fragment-transition" />
+            <option value="$PROJECT_DIR$/inmersivemode" />
+            <option value="$PROJECT_DIR$/navigation-drawer" />
+            <option value="$PROJECT_DIR$/recycler-view" />
+            <option value="$PROJECT_DIR$/reveal-effect" />
+            <option value="$PROJECT_DIR$/scene-basic" />
+            <option value="$PROJECT_DIR$/swipe-refresh-basic" />
+            <option value="$PROJECT_DIR$/swipe-refresh-fragment" />
+            <option value="$PROJECT_DIR$/swipe-refresh-multipleviews" />
+            <option value="$PROJECT_DIR$/transition-test" />
+            <option value="$PROJECT_DIR$/transitions" />
           </set>
         </option>
       </GradleProjectSettings>
